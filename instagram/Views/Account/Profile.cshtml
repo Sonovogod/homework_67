@@ -1,0 +1,76 @@
+@model instagram.Services.ViewModels.Users.UserProfileViewModel
+
+@{
+    ViewBag.Title = "Мой профиль";
+    Layout = "_LayoutForAuthorizeUser";
+}
+<div class="containerProfile">
+  <div class="profile">
+  <div class="profile-image">
+    <img class="d-block"src="@Model.Avatar" alt="@Model.UserName">
+  </div>
+    <div class="profile-user-settings">
+      <h1 class="profile-user-name">@Model.UserName</h1>
+      @if (User.Identity.Name == Model.UserName)
+            {
+              <a class="btn profile-edit-btn" asp-controller="Posts" asp-action="AddPost">Добавить запись</a>
+                <form class="float-end" type="post" asp-action="LogOff" asp-controller="Account" asp-antiforgery="true">
+                  <button type="submit" class="btn profile-edit-btn">Выход</button>
+                </form>
+            }
+            else
+            {
+              string? totalUserId = ViewData.TryGetValue("totalUser", out var value) ? value as string : null;
+                @if (Model.Followers.Any(x => x.FollowerId == totalUserId))
+                {
+                  <button class="btn profile-edit-btn followButton btn-@Model.UserName" accountName="@Model.UserName">Отписаться</button>
+                }
+                else
+                {
+                  <button class="btn profile-edit-btn followButton btn-@Model.UserName" accountName="@Model.UserName">Подписаться</button>
+                }
+            }
+    </div>
+    <div class="profile-stats">
+      <ul>
+      <li class="text-secondary"><span id="posts-@Model.UserName" class="profile-stat-count text-secondary">@Model.Posts.Count</span> посты</li>
+        <li>
+          <a class="myLink text-secondary" asp-action="GetFollowers" asp-controller="Account" asp-route-userName="@Model.UserName">
+            <span id="followersCount" class="profile-stat-count">@Model.Followers.Count</span> подписчики
+          </a>
+        </li>
+        <li>
+          <a class="myLink text-secondary" asp-action="GetSubscribe" asp-controller="Account" asp-route-userName="@Model.UserName">
+            <span id="subscribesCount" class="profile-stat-count">@Model.Subscriptions.Count</span> подписки
+          </a>
+        </li>
+    </ul>
+    </div>
+    <div class="profile-bio">
+      <p><span class="profile-real-name">@Model.Name</span> @Model.UserInfo</p>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row justify-content-center mt-5">
+    @foreach(var post in Model.Posts)
+    {
+      <div class="col-md-4 mb-4" id="Post-@post.Id">
+        <a asp-action="FullPost" asp-controller="Posts" asp-route-postId="@post.Id">
+          <div class="card">
+            <img src="@post.ImgPath" class="card-img-top" alt="@post.Id">
+          </div>
+        </a>
+        <div id="profilePost-@post.Id" class="w-100">
+          <textarea class="w-100 p-2" disabled="disabled">@post.Content</textarea>
+        </div>
+        @if (User.Identity.Name == Model.UserName)
+        {
+          <button id="editPostButton-@post.Id" accountName="@Model.UserName" type="button" class="btn btn-primary editPostBtn m-2" postId="@post.Id">Редактировать</button>
+          <button id="savePostButton-@post.Id" type="button" class="btn btn-primary m-2" hidden="hidden">Сохранить</button>
+          <button type="button" accountName="@Model.UserName" postId="@post.Id" class="btn btn-danger btnPostDelete m-2">Удалить запись</button>
+        }
+      </div>
+    }
+  </div>
+</div>
