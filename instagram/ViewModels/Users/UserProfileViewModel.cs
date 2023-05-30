@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations;
-using instagram.Models;
 using instagram.Services.ViewModels.Posts;
+using instagram.Services.ViewModels.Users;
 
-namespace instagram.Services.ViewModels.Users;
+namespace instagram.ViewModels.Users;
 
 public class UserProfileViewModel
 {

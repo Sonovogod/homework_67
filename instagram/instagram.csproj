@@ -46,6 +46,22 @@
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Views.Account.Profile.en.Designer.cs</LastGenOutput>
       </EmbeddedResource>
+      <EmbeddedResource Update="Resource\ViewModels.Users.UserLoginViewModel.ru.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ViewModels.Users.UserLoginViewModel.ru.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resource\ViewModels.Users.UserLoginViewModel.en.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ViewModels.Users.UserLoginViewModel.en.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resource\ViewModels.Users.UserRegisterViewModel.ru.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ViewModels.Users.UserRegisterViewModel.ru.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resource\ViewModels.Users.UserRegisterViewModel.en">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ViewModels.Users.UserRegisterViewModel.en.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
     </ItemGroup>
 
     <ItemGroup>
@@ -78,6 +94,26 @@
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
         <DependentUpon>Views.Account.Profile.en.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resource\ViewModels.Users.UserLoginViewModel.ru.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ViewModels.Users.UserLoginViewModel.ru.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resource\ViewModels.Users.UserLoginViewModel.en.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ViewModels.Users.UserLoginViewModel.en.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resource\ViewModels.Users.UserRegisterViewModel.ru.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ViewModels.Users.UserRegisterViewModel.ru.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resource\ViewModels.Users.UserRegisterViewModel.en.resx.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ViewModels.Users.UserRegisterViewModel.en.resx</DependentUpon>
       </Compile>
     </ItemGroup>
 

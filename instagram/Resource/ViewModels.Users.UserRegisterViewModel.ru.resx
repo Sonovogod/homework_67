@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="NotNull" xml:space="preserve">
+        <value>Поле не можен быть пустым</value>
+    </data>
+    <data name="FormatError" xml:space="preserve">
+        <value>Неверный формат ввода</value>
+    </data>
+    <data name="CirillicError" xml:space="preserve">
+        <value>Не допускается использование кириллицы и знака '@' в логине</value>
+    </data>
+    <data name="LoginEmailLenghtError" xml:space="preserve">
+        <value>Минимальное количество знаков: 1, Максимальное - 30</value>
+    </data>
+    <data name="NonUnic" xml:space="preserve">
+        <value>Такое имя уже есть</value>
+    </data>
+    <data name="EmailError" xml:space="preserve">
+        <value>Некорректный адрес</value>
+    </data>
+    <data name="EmailNonUnic" xml:space="preserve">
+        <value>Такая почта уже зарегистрирована</value>
+    </data>
+    <data name="MinPassLenghtError" xml:space="preserve">
+        <value>Минимальная длина поля должна быть не менее 5 символов.</value>
+    </data>
+    <data name="PassNotCompare" xml:space="preserve">
+        <value>Пароли не совпадают</value>
+    </data>
+    <data name="NameMaxLenght" xml:space="preserve">
+        <value>Максимальное кол-во знаков 30 символов</value>
+    </data>
+    <data name="MaxPhoneLenght" xml:space="preserve">
+        <value>Максимальное кол-во знаков 16 символов</value>
+    </data>
+</root>

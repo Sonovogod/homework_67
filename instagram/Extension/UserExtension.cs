@@ -1,5 +1,6 @@
 using instagram.Models;
 using instagram.Services.ViewModels.Users;
+using instagram.ViewModels.Users;
 
 namespace instagram.Extension;
 

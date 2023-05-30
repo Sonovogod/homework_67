@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="NotNull" xml:space="preserve">
+        <value>Field is not must required</value>
+    </data>
+    <data name="FormatError" xml:space="preserve">
+        <value>Format error</value>
+    </data>
+    <data name="CirillicError" xml:space="preserve">
+        <value>It is not allowed to use the Cyrillic alphabet and the '@' sign in the login</value>
+    </data>
+    <data name="LoginEmailLenghtError" xml:space="preserve">
+        <value>Minimum number of characters: 1, Maximum - 30</value>
+    </data>
+    <data name="NonUnic" xml:space="preserve">
+        <value>This name already exists</value>
+    </data>
+    <data name="EmailError" xml:space="preserve">
+        <value>Incorrect Email</value>
+    </data>
+    <data name="EmailNonUnic" xml:space="preserve">
+        <value>This email is already registered.</value>
+    </data>
+    <data name="MinPassLenghtError" xml:space="preserve">
+        <value>The minimum field length must be at least 5 characters.</value>
+    </data>
+    <data name="PassNotCompare" xml:space="preserve">
+        <value>Password mismatch</value>
+    </data>
+    <data name="NameMaxLenght" xml:space="preserve">
+        <value>Maximum number of characters 30 characters</value>
+    </data>
+    <data name="MaxPhoneLenght" xml:space="preserve">
+        <value>Maximum number of characters 16 characters</value>
+    </data>
+</root>
