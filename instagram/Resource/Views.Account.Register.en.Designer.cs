@@ -60,56 +60,11 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add post.
-        /// </summary>
-        internal static string AddPostButton {
-            get {
-                return ResourceManager.GetString("AddPostButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Delete.
-        /// </summary>
-        internal static string DeleteButton {
-            get {
-                return ResourceManager.GetString("DeleteButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Edit.
-        /// </summary>
-        internal static string EditButton {
-            get {
-                return ResourceManager.GetString("EditButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Email.
         /// </summary>
         internal static string Email {
             get {
                 return ResourceManager.GetString("Email", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Come in.
-        /// </summary>
-        internal static string EnterButton {
-            get {
-                return ResourceManager.GetString("EnterButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to followers.
-        /// </summary>
-        internal static string Followers {
-            get {
-                return ResourceManager.GetString("Followers", resourceCulture);
             }
         }
         
@@ -128,15 +83,6 @@ namespace instagram.Resource {
         internal static string PassRuleHolder {
             get {
                 return ResourceManager.GetString("PassRuleHolder", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Email username or address.
-        /// </summary>
-        internal static string PlaceHolderEmailLogin {
-            get {
-                return ResourceManager.GetString("PlaceHolderEmailLogin", resourceCulture);
             }
         }
         
@@ -195,24 +141,6 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to File is not chosen.
-        /// </summary>
-        internal static string PlaceholderPhotoProfileField {
-            get {
-                return ResourceManager.GetString("PlaceholderPhotoProfileField", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Search.
-        /// </summary>
-        internal static string PlaceholderSearch {
-            get {
-                return ResourceManager.GetString("PlaceholderSearch", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to User info.
         /// </summary>
         internal static string PlaceholderUserInfo {
@@ -228,15 +156,6 @@ namespace instagram.Resource {
         internal static string PlaceholderYourName {
             get {
                 return ResourceManager.GetString("PlaceholderYourName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to posts.
-        /// </summary>
-        internal static string Posts {
-            get {
-                return ResourceManager.GetString("Posts", resourceCulture);
             }
         }
         
@@ -268,15 +187,6 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Save.
-        /// </summary>
-        internal static string SaveButton {
-            get {
-                return ResourceManager.GetString("SaveButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Female.
         /// </summary>
         internal static string SelectFemale {
@@ -291,33 +201,6 @@ namespace instagram.Resource {
         internal static string SelectMale {
             get {
                 return ResourceManager.GetString("SelectMale", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Pleace to enter.
-        /// </summary>
-        internal static string SignIn {
-            get {
-                return ResourceManager.GetString("SignIn", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sign out.
-        /// </summary>
-        internal static string SignOutButton {
-            get {
-                return ResourceManager.GetString("SignOutButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sing in.
-        /// </summary>
-        internal static string SingInButton {
-            get {
-                return ResourceManager.GetString("SingInButton", resourceCulture);
             }
         }
         

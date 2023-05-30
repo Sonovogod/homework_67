@@ -18,50 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="SignIn" xml:space="preserve">
-        <value>Pleace to enter</value>
-    </data>
-    <data name="PlaceHolderEmailLogin" xml:space="preserve">
-        <value>Email username or address</value>
-    </data>
     <data name="PlaceholderPass" xml:space="preserve">
         <value>Password</value>
     </data>
-    <data name="EnterButton" xml:space="preserve">
-        <value>Come in</value>
-    </data>
     <data name="ToRegister" xml:space="preserve">
         <value>Register</value>
-    </data>
-    <data name="PlaceholderSearch" xml:space="preserve">
-        <value>Search</value>
-    </data>
-    <data name="AddPostButton" xml:space="preserve">
-        <value>Add post</value>
-    </data>
-    <data name="Followers" xml:space="preserve">
-        <value>followers</value>
-    </data>
-    <data name="EditButton" xml:space="preserve">
-        <value>Edit</value>
-    </data>
-    <data name="DeleteButton" xml:space="preserve">
-        <value>Delete</value>
-    </data>
-    <data name="SaveButton" xml:space="preserve">
-        <value>Save</value>
-    </data>
-    <data name="SignOutButton" xml:space="preserve">
-        <value>Sign out</value>
-    </data>
-    <data name="SingInButton" xml:space="preserve">
-        <value>Sing in</value>
-    </data>
-    <data name="Registration" xml:space="preserve">
-        <value>Registration</value>
-    </data>
-    <data name="Login" xml:space="preserve">
-        <value>Login</value>
     </data>
     <data name="Email" xml:space="preserve">
         <value>Email</value>
@@ -80,9 +41,6 @@
     </data>
     <data name="ProfilePhotoButton" xml:space="preserve">
         <value>Choise file</value>
-    </data>
-    <data name="PlaceholderPhotoProfileField" xml:space="preserve">
-        <value>File is not chosen</value>
     </data>
     <data name="ProfilePhotoRule" xml:space="preserve">
         <value>minimal 55х55px (jpg/jpen/png</value>
@@ -106,7 +64,10 @@
     <data name="SelectFemale" xml:space="preserve">
         <value>Female</value>
     </data>
-    <data name="Posts" xml:space="preserve">
-        <value>posts</value>
+    <data name="Registration" xml:space="preserve">
+        <value>Registration</value>
+    </data>
+    <data name="Login" xml:space="preserve">
+        <value>Login</value>
     </data>
 </root>

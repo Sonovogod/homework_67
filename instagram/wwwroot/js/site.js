@@ -4,6 +4,24 @@
 
 $(document).ready(() => {
     
+    $('#cultureChange select').change(function(){
+        let culture = $(this).val();
+        $.ajax({
+            type: 'POST',
+            url: '/Account/SetLanguage/',
+            data: {
+                culture: culture,
+            },
+            success: function (response){
+                location.reload();
+            },
+            error: function (response) {
+                console.log(response);
+            }
+        })
+        
+    })
+    
     $('.followButton').on('click', function (event){
         event.preventDefault();
         const followerName = $(this).attr('accountName');

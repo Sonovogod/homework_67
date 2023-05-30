@@ -18,53 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="SignIn" xml:space="preserve">
-        <value>Выполните вход</value>
-    </data>
-    <data name="PlaceHolderEmailLogin" xml:space="preserve">
-        <value>Эл. адрес или логин пользователя</value>
-    </data>
     <data name="PlaceholderPass" xml:space="preserve">
         <value>Пароль</value>
     </data>
-    <data name="EnterButton" xml:space="preserve">
-        <value>Войти</value>
-    </data>
     <data name="ToRegister" xml:space="preserve">
         <value>Зарегистрироваться</value>
-    </data>
-    <data name="PlaceholderSearch" xml:space="preserve">
-        <value>Поиск</value>
-    </data>
-    <data name="AddPostButton" xml:space="preserve">
-        <value>Добавить запись</value>
-    </data>
-    <data name="Posts" xml:space="preserve">
-        <value>посты</value>
-    </data>
-    <data name="Followers" xml:space="preserve">
-        <value>подписчики</value>
-    </data>
-    <data name="EditButton" xml:space="preserve">
-        <value>Редактировать</value>
-    </data>
-    <data name="DeleteButton" xml:space="preserve">
-        <value>Удалить</value>
-    </data>
-    <data name="SaveButton" xml:space="preserve">
-        <value>Сохранить</value>
-    </data>
-    <data name="SignOutButton" xml:space="preserve">
-        <value>Выход</value>
-    </data>
-    <data name="SingInButton" xml:space="preserve">
-        <value>Войти</value>
-    </data>
-    <data name="Registration" xml:space="preserve">
-        <value>Регистрация</value>
-    </data>
-    <data name="Login" xml:space="preserve">
-        <value>Логин</value>
     </data>
     <data name="Email" xml:space="preserve">
         <value>Эл. почта</value>
@@ -83,9 +41,6 @@
     </data>
     <data name="ProfilePhotoButton" xml:space="preserve">
         <value>Выберите файл</value>
-    </data>
-    <data name="PlaceholderPhotoProfileField" xml:space="preserve">
-        <value>Файл не выбран</value>
     </data>
     <data name="ProfilePhotoRule" xml:space="preserve">
         <value>минимально 55х55px (jpg/jpen/png</value>
@@ -107,5 +62,11 @@
     </data>
     <data name="SelectFemale" xml:space="preserve">
         <value>Женский</value>
+    </data>
+    <data name="Registration" xml:space="preserve">
+        <value>Регистрация</value>
+    </data>
+    <data name="Login" xml:space="preserve">
+        <value>Логин</value>
     </data>
 </root>

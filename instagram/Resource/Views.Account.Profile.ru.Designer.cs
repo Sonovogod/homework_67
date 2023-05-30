@@ -87,20 +87,11 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Эл. почта.
+        ///   Looks up a localized string similar to Подписаться.
         /// </summary>
-        internal static string Email {
+        internal static string FollowButton {
             get {
-                return ResourceManager.GetString("Email", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Войти.
-        /// </summary>
-        internal static string EnterButton {
-            get {
-                return ResourceManager.GetString("EnterButton", resourceCulture);
+                return ResourceManager.GetString("FollowButton", resourceCulture);
             }
         }
         
@@ -114,155 +105,11 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Логин.
-        /// </summary>
-        internal static string Login {
-            get {
-                return ResourceManager.GetString("Login", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Пароль должен содержать не менее 5 символов, любых..
-        /// </summary>
-        internal static string PassRuleHolder {
-            get {
-                return ResourceManager.GetString("PassRuleHolder", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Эл. адрес или логин пользователя.
-        /// </summary>
-        internal static string PlaceHolderEmailLogin {
-            get {
-                return ResourceManager.GetString("PlaceHolderEmailLogin", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Пол.
-        /// </summary>
-        internal static string PlaceholderGenger {
-            get {
-                return ResourceManager.GetString("PlaceholderGenger", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Пароль.
-        /// </summary>
-        internal static string PlaceholderPass {
-            get {
-                return ResourceManager.GetString("PlaceholderPass", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Подтверждение пароля.
-        /// </summary>
-        internal static string PlaceholderPassConfirm {
-            get {
-                return ResourceManager.GetString("PlaceholderPassConfirm", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Пароли должны совпадать.
-        /// </summary>
-        internal static string PlaceholderPassConfirmRule {
-            get {
-                return ResourceManager.GetString("PlaceholderPassConfirmRule", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Номер телефона.
-        /// </summary>
-        internal static string PlaceholderPhoneNumber {
-            get {
-                return ResourceManager.GetString("PlaceholderPhoneNumber", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Фото профиля.
-        /// </summary>
-        internal static string PlaceholderPhotoProfile {
-            get {
-                return ResourceManager.GetString("PlaceholderPhotoProfile", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Файл не выбран.
-        /// </summary>
-        internal static string PlaceholderPhotoProfileField {
-            get {
-                return ResourceManager.GetString("PlaceholderPhotoProfileField", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Поиск.
-        /// </summary>
-        internal static string PlaceholderSearch {
-            get {
-                return ResourceManager.GetString("PlaceholderSearch", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Информация о пользователе.
-        /// </summary>
-        internal static string PlaceholderUserInfo {
-            get {
-                return ResourceManager.GetString("PlaceholderUserInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Ваше имя (необязательно).
-        /// </summary>
-        internal static string PlaceholderYourName {
-            get {
-                return ResourceManager.GetString("PlaceholderYourName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to посты.
         /// </summary>
         internal static string Posts {
             get {
                 return ResourceManager.GetString("Posts", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Выберите файл.
-        /// </summary>
-        internal static string ProfilePhotoButton {
-            get {
-                return ResourceManager.GetString("ProfilePhotoButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to минимально 55х55px (jpg/jpen/png.
-        /// </summary>
-        internal static string ProfilePhotoRule {
-            get {
-                return ResourceManager.GetString("ProfilePhotoRule", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Регистрация.
-        /// </summary>
-        internal static string Registration {
-            get {
-                return ResourceManager.GetString("Registration", resourceCulture);
             }
         }
         
@@ -276,33 +123,6 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Женский.
-        /// </summary>
-        internal static string SelectFemale {
-            get {
-                return ResourceManager.GetString("SelectFemale", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Мужской.
-        /// </summary>
-        internal static string SelectMale {
-            get {
-                return ResourceManager.GetString("SelectMale", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Выполните вход.
-        /// </summary>
-        internal static string SignIn {
-            get {
-                return ResourceManager.GetString("SignIn", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Выход.
         /// </summary>
         internal static string SignOutButton {
@@ -312,20 +132,20 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Войти.
+        ///   Looks up a localized string similar to подписки.
         /// </summary>
-        internal static string SingInButton {
+        internal static string SubscriptionsTitle {
             get {
-                return ResourceManager.GetString("SingInButton", resourceCulture);
+                return ResourceManager.GetString("SubscriptionsTitle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Зарегистрироваться.
+        ///   Looks up a localized string similar to Отписаться.
         /// </summary>
-        internal static string ToRegister {
+        internal static string UnfollowButton {
             get {
-                return ResourceManager.GetString("ToRegister", resourceCulture);
+                return ResourceManager.GetString("UnfollowButton", resourceCulture);
             }
         }
     }

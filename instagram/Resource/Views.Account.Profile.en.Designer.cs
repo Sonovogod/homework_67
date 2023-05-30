@@ -87,20 +87,11 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Email.
+        ///   Looks up a localized string similar to Follow.
         /// </summary>
-        internal static string Email {
+        internal static string FollowButton {
             get {
-                return ResourceManager.GetString("Email", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Come in.
-        /// </summary>
-        internal static string EnterButton {
-            get {
-                return ResourceManager.GetString("EnterButton", resourceCulture);
+                return ResourceManager.GetString("FollowButton", resourceCulture);
             }
         }
         
@@ -114,156 +105,11 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Login.
-        /// </summary>
-        internal static string Login {
-            get {
-                return ResourceManager.GetString("Login", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The password must contain at least 5 characters, any..
-        /// </summary>
-        internal static string PassRuleHolder {
-            get {
-                return ResourceManager.GetString("PassRuleHolder", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Email username or address.
-        /// </summary>
-        internal static string PlaceHolderEmailLogin {
-            get {
-                return ResourceManager.GetString("PlaceHolderEmailLogin", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Gender.
-        /// </summary>
-        internal static string PlaceholderGenger {
-            get {
-                return ResourceManager.GetString("PlaceholderGenger", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Password.
-        /// </summary>
-        internal static string PlaceholderPass {
-            get {
-                return ResourceManager.GetString("PlaceholderPass", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Confirm password.
-        /// </summary>
-        internal static string PlaceholderPassConfirm {
-            get {
-                return ResourceManager.GetString("PlaceholderPassConfirm", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Passwords must be match.
-        /// </summary>
-        internal static string PlaceholderPassConfirmRule {
-            get {
-                return ResourceManager.GetString("PlaceholderPassConfirmRule", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Phone number.
-        /// </summary>
-        internal static string PlaceholderPhoneNumber {
-            get {
-                return ResourceManager.GetString("PlaceholderPhoneNumber", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Profile photo.
-        /// </summary>
-        internal static string PlaceholderPhotoProfile {
-            get {
-                return ResourceManager.GetString("PlaceholderPhotoProfile", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to File is not chosen.
-        /// </summary>
-        internal static string PlaceholderPhotoProfileField {
-            get {
-                return ResourceManager.GetString("PlaceholderPhotoProfileField", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Search.
-        /// </summary>
-        internal static string PlaceholderSearch {
-            get {
-                return ResourceManager.GetString("PlaceholderSearch", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to User info.
-        /// </summary>
-        internal static string PlaceholderUserInfo {
-            get {
-                return ResourceManager.GetString("PlaceholderUserInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Your name 
-        ///(not necessary).
-        /// </summary>
-        internal static string PlaceholderYourName {
-            get {
-                return ResourceManager.GetString("PlaceholderYourName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to posts.
         /// </summary>
         internal static string Posts {
             get {
                 return ResourceManager.GetString("Posts", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Choise file.
-        /// </summary>
-        internal static string ProfilePhotoButton {
-            get {
-                return ResourceManager.GetString("ProfilePhotoButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to minimal 55х55px (jpg/jpen/png.
-        /// </summary>
-        internal static string ProfilePhotoRule {
-            get {
-                return ResourceManager.GetString("ProfilePhotoRule", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Registration.
-        /// </summary>
-        internal static string Registration {
-            get {
-                return ResourceManager.GetString("Registration", resourceCulture);
             }
         }
         
@@ -277,33 +123,6 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Female.
-        /// </summary>
-        internal static string SelectFemale {
-            get {
-                return ResourceManager.GetString("SelectFemale", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Male.
-        /// </summary>
-        internal static string SelectMale {
-            get {
-                return ResourceManager.GetString("SelectMale", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Pleace to enter.
-        /// </summary>
-        internal static string SignIn {
-            get {
-                return ResourceManager.GetString("SignIn", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Sign out.
         /// </summary>
         internal static string SignOutButton {
@@ -313,20 +132,20 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sing in.
+        ///   Looks up a localized string similar to subscriptions.
         /// </summary>
-        internal static string SingInButton {
+        internal static string SubscriptionsTitle {
             get {
-                return ResourceManager.GetString("SingInButton", resourceCulture);
+                return ResourceManager.GetString("SubscriptionsTitle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Register.
+        ///   Looks up a localized string similar to Unfollow.
         /// </summary>
-        internal static string ToRegister {
+        internal static string UnfollowButton {
             get {
-                return ResourceManager.GetString("ToRegister", resourceCulture);
+                return ResourceManager.GetString("UnfollowButton", resourceCulture);
             }
         }
     }

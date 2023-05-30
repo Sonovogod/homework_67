@@ -9,26 +9,33 @@
 </head>
 <body>
 <nav class="navbar">
-        <div class="nav-wrapper">
-            <a class="myLink brand-img" asp-area="" asp-controller="Posts" asp-action="Feed">
-                <img src="~/img/logo.PNG" class="brand-img" alt="feed">
+    <div class="nav-wrapper">
+        <a class="myLink brand-img" asp-area="" asp-controller="Posts" asp-action="Feed">
+            <img src="~/img/logo.PNG" class="brand-img" alt="feed">
+        </a>
+        <form type="post" class="search-box" asp-action="Search" asp-controller="Account" asp-antiforgery="true">
+            <input type="text" class="search-box" placeholder="поиск..." name="key">
+        </form>
+        <div class="nav-items">
+            <a class="myLink" asp-area="" asp-controller="Posts" asp-action="Feed">
+                <img src="~/img/home.PNG" class="icon" alt="feed">
             </a>
-            <form type="post" class="search-box" asp-action="Search" asp-controller="Account" asp-antiforgery="true">
-                <input type="text" class="search-box" placeholder="поиск..." name="key">
+            <a class="myLink" asp-controller="Posts" asp-action="AddPost">
+                <img src="~/img/add.PNG" class="icon" alt="addPost">
+            </a>
+            <a class="myLink" asp-area="" asp-controller="Account" asp-action="Profile" asp-route-userName="@User.Identity.Name">
+                <img src="~/img/explore.PNG" class="icon" alt="profile">
+            </a>
+            <form id="cultureChange" type="post" class="px-3 float-end my-auto" asp-antiforgery="true">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Ru</option>
+                    <option value="ru-RU">Ru</option>
+                    <option value="en-US">En</option>
+                </select>
             </form>
-            <div class="nav-items">
-                <a class="myLink" asp-area="" asp-controller="Posts" asp-action="Feed">
-                    <img src="~/img/home.PNG" class="icon" alt="feed">
-                </a>
-                <a class="myLink" asp-controller="Posts" asp-action="AddPost" >
-                    <img src="~/img/add.PNG" class="icon" alt="addPost">
-                </a>
-                <a class="myLink" asp-area="" asp-controller="Account" asp-action="Profile" asp-route-userName="@User.Identity.Name">
-                    <img src="~/img/explore.PNG" class="icon" alt="profile">
-                </a>
-            </div>
         </div>
-    </nav>
+    </div>
+</nav>
 <div class="mainContainer">
     <main role="main" class="pb-3">
         @RenderBody()

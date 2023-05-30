@@ -1,4 +1,7 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.AspNetCore.Mvc.TagHelpers
 @model instagram.Services.ViewModels.Users.UserProfileViewModel
+@inject IViewLocalizer Localizer
 
 @{
     ViewBag.Title = "Мой профиль";
@@ -13,9 +16,9 @@
       <h1 class="profile-user-name">@Model.UserName</h1>
       @if (User.Identity.Name == Model.UserName)
             {
-              <a class="btn profile-edit-btn" asp-controller="Posts" asp-action="AddPost">Добавить запись</a>
+              <a class="btn profile-edit-btn" asp-controller="Posts" asp-action="AddPost">@Localizer["AddPostButton"]</a>
                 <form class="float-end" type="post" asp-action="LogOff" asp-controller="Account" asp-antiforgery="true">
-                  <button type="submit" class="btn profile-edit-btn">Выход</button>
+                  <button type="submit" class="btn profile-edit-btn">@Localizer["SignOutButton"]</button>
                 </form>
             }
             else
@@ -23,25 +26,25 @@
               string? totalUserId = ViewData.TryGetValue("totalUser", out var value) ? value as string : null;
                 @if (Model.Followers.Any(x => x.FollowerId == totalUserId))
                 {
-                  <button class="btn profile-edit-btn followButton btn-@Model.UserName" accountName="@Model.UserName">Отписаться</button>
+                  <button class="btn profile-edit-btn followButton btn-@Model.UserName" accountName="@Model.UserName">@Localizer["UnfollowButton"]</button>
                 }
                 else
                 {
-                  <button class="btn profile-edit-btn followButton btn-@Model.UserName" accountName="@Model.UserName">Подписаться</button>
+                  <button class="btn profile-edit-btn followButton btn-@Model.UserName" accountName="@Model.UserName">@Localizer["FollowButton"]</button>
                 }
             }
     </div>
     <div class="profile-stats">
       <ul>
-      <li class="text-secondary"><span id="posts-@Model.UserName" class="profile-stat-count text-secondary">@Model.Posts.Count</span> посты</li>
+      <li class="text-secondary"><span id="posts-@Model.UserName" class="profile-stat-count text-secondary">@Model.Posts.Count</span> @Localizer["Posts"]</li>
         <li>
           <a class="myLink text-secondary" asp-action="GetFollowers" asp-controller="Account" asp-route-userName="@Model.UserName">
-            <span id="followersCount" class="profile-stat-count">@Model.Followers.Count</span> подписчики
+            <span id="followersCount" class="profile-stat-count">@Model.Followers.Count</span> @Localizer["Followers"]
           </a>
         </li>
         <li>
           <a class="myLink text-secondary" asp-action="GetSubscribe" asp-controller="Account" asp-route-userName="@Model.UserName">
-            <span id="subscribesCount" class="profile-stat-count">@Model.Subscriptions.Count</span> подписки
+            <span id="subscribesCount" class="profile-stat-count">@Model.Subscriptions.Count</span> @Localizer["SubscriptionsTitle"]
           </a>
         </li>
     </ul>
@@ -66,9 +69,9 @@
         </div>
         @if (User.Identity.Name == Model.UserName)
         {
-          <button id="editPostButton-@post.Id" accountName="@Model.UserName" type="button" class="btn btn-primary editPostBtn m-2" postId="@post.Id">Редактировать</button>
-          <button id="savePostButton-@post.Id" type="button" class="btn btn-primary m-2" hidden="hidden">Сохранить</button>
-          <button type="button" accountName="@Model.UserName" postId="@post.Id" class="btn btn-danger btnPostDelete m-2">Удалить запись</button>
+          <button id="editPostButton-@post.Id" accountName="@Model.UserName" type="button" class="btn btn-primary editPostBtn m-2" postId="@post.Id">@Localizer["EditButton"]</button>
+          <button id="savePostButton-@post.Id" type="button" class="btn btn-primary m-2" hidden="hidden">@Localizer["SaveButton"]</button>
+          <button type="button" accountName="@Model.UserName" postId="@post.Id" class="btn btn-danger btnPostDelete m-2">@Localizer["DeleteButton"]</button>
         }
       </div>
     }

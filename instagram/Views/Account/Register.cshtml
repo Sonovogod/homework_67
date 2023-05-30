@@ -12,7 +12,7 @@
     <h2>@Localizer["Registration"]</h2>
     <form asp-action="Register" method="post" asp-antiforgery="true" enctype="multipart/form-data">
         <div class="mb-3">
-            <label for="userName" class="form-label" asp-for="UserName">@Localizer["Registration"]</label>
+            <label for="userName" class="form-label" asp-for="UserName">@Localizer["Login"]</label>
             <input type="text" class="form-control" id="userName" asp-for="UserName">
             <span class="text-danger" asp-validation-for="UserName"></span>
         </div>
