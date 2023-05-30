@@ -1,10 +1,11 @@
+using System.Globalization;
 using System.IO.Compression;
-using instagram.Extension;
 using instagram.Models;
 using instagram.Services;
 using instagram.Services.Abstracts;
 using instagram.Services.File;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
@@ -12,7 +13,7 @@ using Microsoft.Extensions.Caching.Memory;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddViewLocalization();
 string connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<InstagramContext>(options => options.UseNpgsql(connection))
     .AddIdentity<User, IdentityRole>(options =>
@@ -24,7 +25,7 @@ builder.Services.AddDbContext<InstagramContext>(options => options.UseNpgsql(con
         options.Password.RequireNonAlphanumeric = false;
     })
     .AddEntityFrameworkStores<InstagramContext>();
-
+builder.Services.AddLocalization(options => options.ResourcesPath = "Resource");
 builder.Services.AddResponseCompression(options => options.EnableForHttps = true);
 builder.Services.Configure<GzipCompressionProviderOptions>(options =>
 {
@@ -40,6 +41,18 @@ builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddScoped<IMemoryCache, MemoryCache>();
 
 var app = builder.Build();
+var supportedCultures = new[] 
+{
+    new CultureInfo("en"),
+    new CultureInfo("ru")
+};
+
+app.UseRequestLocalization(new RequestLocalizationOptions()
+{
+    DefaultRequestCulture = new RequestCulture("ru"),
+    SupportedCultures = supportedCultures,
+    SupportedUICultures = supportedCultures
+});
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

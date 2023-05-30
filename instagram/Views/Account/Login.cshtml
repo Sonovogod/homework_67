@@ -1,11 +1,13 @@
+@using Microsoft.AspNetCore.Mvc.Localization
 @model instagram.Services.ViewModels.Users.UserLoginViewModel
+@inject IViewLocalizer Localizer
 
 @{
     ViewBag.Title = "Вход";
     Layout = "_Layout";
 }
 <div class="container mtStandatr">
-    <h2>Выполните вход</h2>
+    <h2>@Localizer["SignIn"]</h2>
     <form method="post" asp-action="Login" asp-controller="Account" asp-antiforgery="true">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label" asp-for="EmailOrLogin"></label>
