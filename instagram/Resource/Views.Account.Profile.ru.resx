@@ -40,16 +40,10 @@
         <value>Добавить запись</value>
     </data>
     <data name="Posts" xml:space="preserve">
-        <value />
+        <value>посты</value>
     </data>
     <data name="Followers" xml:space="preserve">
         <value>подписчики</value>
-    </data>
-    <data name="Subscriptions" xml:space="preserve">
-        <value>подписки</value>
-    </data>
-    <data name="Post" xml:space="preserve">
-        <value>посты</value>
     </data>
     <data name="EditButton" xml:space="preserve">
         <value>Редактировать</value>

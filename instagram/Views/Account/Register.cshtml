@@ -1,70 +1,72 @@
 @using instagram.Enums.User
+@using Microsoft.AspNetCore.Mvc.Localization
 @using Microsoft.AspNetCore.Mvc.TagHelpers
 @model instagram.Services.ViewModels.Users.UserRegisterViewModel
+@inject IViewLocalizer Localizer
 
 @{
     ViewBag.Title = "Регистрация";
     Layout = "_Layout";
 }
 <div class="container mtStandatr">
-    <h2>Регистрация</h2>
+    <h2>@Localizer["Registration"]</h2>
     <form asp-action="Register" method="post" asp-antiforgery="true" enctype="multipart/form-data">
         <div class="mb-3">
-            <label for="userName" class="form-label" asp-for="UserName"></label>
+            <label for="userName" class="form-label" asp-for="UserName">@Localizer["Registration"]</label>
             <input type="text" class="form-control" id="userName" asp-for="UserName">
             <span class="text-danger" asp-validation-for="UserName"></span>
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label" asp-for="Email"></label>
+            <label for="exampleInputEmail1" class="form-label" asp-for="Email">@Localizer["Email"]</label>
             <input type="email" class="form-control" id="exampleInputEmail1" asp-for="Email">
             <span class="text-danger" asp-validation-for="Email"></span>
         </div>
         <div class="mb-3">
-            <label for="pass" class="form-label" asp-for="Password"></label>
+            <label for="pass" class="form-label" asp-for="Password">@Localizer["PlaceholderPass"]</label>
             <input type="password" id="pass" class="form-control" aria-labelledby="passHelp" asp-for="Password">
             <div id="passHelp" class="form-text">
-                Пароль должен содержать не менее 5 символов, любых.
+                @Localizer["PassRuleHolder"]
             </div>
             <span class="text-danger" asp-validation-for="Password"></span>
         </div>
         <div class="mb-3">
-            <label for="confirm" class="form-label" asp-for="ConfirmPassword"></label>
+            <label for="confirm" class="form-label" asp-for="ConfirmPassword">@Localizer["PlaceholderPassConfirm"]</label>
             <input type="password" class="form-control" id="confirm" asp-for="ConfirmPassword">
             <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
             <div id="passwordHelpBlock" class="form-text">
-                Пароли должны совпадать
+                @Localizer["PlaceholderPassConfirmRule"]
             </div>
         </div>
         <div class="input-group mb-3">
-            <label class="input-group-text" for="inputGroupFile01" asp-for="Avatar"></label>
-            <input type="file" class="form-control" id="inputGroupFile01" name="uploadedFile">
-            <div id="help" class="form-text">минимально 55х55px (jpg/jpen/png)</div>
+            <label class="input-group-text" for="inputGroupFile01" asp-for="Avatar">@Localizer["PlaceholderPhotoProfile"]</label>
+            <input hidden="hidden" type="file" class="form-control" id="inputGroupFile01" name="uploadedFile">
+            <div id="help" class="form-text mx-3">@Localizer["ProfilePhotoRule"]</div>
         </div>
         <div class="mb-3">
-            <label for="name" class="form-label" asp-for="Name"></label>
+            <label for="name" class="form-label" asp-for="Name">@Localizer["PlaceholderYourName"]</label>
             <input type="text" class="form-control" id="name" asp-for="Name">
             <span class="text-danger" asp-validation-for="Name"></span>
         </div>
         <div class="mb-3">
-            <label for="userInfo" class="form-label" asp-for="UserInfo"></label>
+            <label for="userInfo" class="form-label" asp-for="UserInfo">@Localizer["PlaceholderUserInfo"]</label>
             <textarea type="text" class="form-control" id="userInfo" asp-for="UserInfo"></textarea>
             <span class="text-danger" asp-validation-for="UserInfo"></span>
         </div>
         <div class="mb-3">
-            <label for="phone" class="form-label" asp-for="PhoneNumber"></label>
+            <label for="phone" class="form-label" asp-for="PhoneNumber">@Localizer["PlaceholderPhoneNumber"]</label>
             <input type="text" class="form-control" id="phone" asp-for="PhoneNumber">
             <span class="text-danger" asp-validation-for="PhoneNumber"></span>
         </div>
         <div class="mb-3">
-            <label for="gender" class="form-label">Пол</label>
+            <label for="gender" class="form-label">@Localizer["PlaceholderGenger"]</label>
             <select class="form-select" id="gender" asp-for="Gender">
-                <option value="@Gender.Female">Женский</option>
-                <option value="@Gender.Male">Мужской</option>
+                <option value="@Gender.Female">@Localizer["SelectFemale"]</option>
+                <option value="@Gender.Male">@Localizer["SelectMale"]</option>
             </select>
             <span class="text-danger" asp-validation-for="Gender"></span>
         </div>
 
-        <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
+        <button type="submit" class="btn btn-primary">@Localizer["ToRegister"]</button>
     </form>
     <div class="text-danger" asp-validation-summary="All"></div>
 </div>

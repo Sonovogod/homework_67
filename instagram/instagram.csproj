@@ -22,26 +22,62 @@
     </ItemGroup>
 
     <ItemGroup>
-      <EmbeddedResource Update="Resource\Controllers.AccountController.ru.resx">
+      <EmbeddedResource Update="Resource\Views.Account.Login.ru.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Controllers.AccountController.ru.Designer.cs</LastGenOutput>
       </EmbeddedResource>
-      <EmbeddedResource Update="Resource\Controllers.AccountController.en.resx">
+      <EmbeddedResource Update="Resource\Views.Account.Login.en.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Controllers.AccountController.en.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resource\Views.Account.Register.en.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Views.Account.Register.en.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resource\Views.Account.Register.ru.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Views.Account.Register.ru.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resource\Views.Account.Profile.ru.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Views.Account.Profile.ru.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resource\Views.Account.Profile.en.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Views.Account.Profile.en.Designer.cs</LastGenOutput>
       </EmbeddedResource>
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Update="Resource\Controllers.AccountController.ru.Designer.cs">
+      <Compile Update="Resource\Views.Account.Login.ru.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
-        <DependentUpon>Controllers.AccountController.ru.resx</DependentUpon>
+        <DependentUpon>Views.Account.Login.ru.resx</DependentUpon>
       </Compile>
-      <Compile Update="Resource\Controllers.AccountController.en.Designer.cs">
+      <Compile Update="Resource\Views.Account.Login.en.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
-        <DependentUpon>Controllers.AccountController.en.resx</DependentUpon>
+        <DependentUpon>Views.Account.Login.en.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resource\Views.Account.Register.en.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Views.Account.Register.en.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resource\Views.Account.Register.ru.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Views.Account.Register.ru.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resource\Views.Account.Profile.ru.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Views.Account.Profile.ru.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resource\Views.Account.Profile.en.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Views.Account.Profile.en.resx</DependentUpon>
       </Compile>
     </ItemGroup>
 

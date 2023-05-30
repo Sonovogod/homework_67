@@ -19,97 +19,93 @@
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
     <data name="SignIn" xml:space="preserve">
-        <value>Pleace to enter</value>
+        <value>Выполните вход</value>
     </data>
     <data name="PlaceHolderEmailLogin" xml:space="preserve">
-        <value>Email username or address</value>
+        <value>Эл. адрес или логин пользователя</value>
     </data>
     <data name="PlaceholderPass" xml:space="preserve">
-        <value>Password</value>
+        <value>Пароль</value>
     </data>
     <data name="EnterButton" xml:space="preserve">
-        <value>Come in</value>
+        <value>Войти</value>
     </data>
     <data name="ToRegister" xml:space="preserve">
-        <value>Register</value>
+        <value>Зарегистрироваться</value>
     </data>
     <data name="PlaceholderSearch" xml:space="preserve">
-        <value>Search</value>
+        <value>Поиск</value>
     </data>
     <data name="AddPostButton" xml:space="preserve">
-        <value>Add post</value>
+        <value>Добавить запись</value>
+    </data>
+    <data name="Posts" xml:space="preserve">
+        <value>посты</value>
     </data>
     <data name="Followers" xml:space="preserve">
-        <value>followers</value>
-    </data>
-    <data name="Subscriptions" xml:space="preserve">
-        <value>subscriptions</value>
-    </data>
-    <data name="Post" xml:space="preserve">
-        <value>posts</value>
+        <value>подписчики</value>
     </data>
     <data name="EditButton" xml:space="preserve">
-        <value>Edit</value>
+        <value>Редактировать</value>
     </data>
     <data name="DeleteButton" xml:space="preserve">
-        <value>Delete</value>
+        <value>Удалить</value>
     </data>
     <data name="SaveButton" xml:space="preserve">
-        <value>Save</value>
+        <value>Сохранить</value>
     </data>
     <data name="SignOutButton" xml:space="preserve">
-        <value>Sign out</value>
+        <value>Выход</value>
     </data>
     <data name="SingInButton" xml:space="preserve">
-        <value>Sing in</value>
+        <value>Войти</value>
     </data>
     <data name="Registration" xml:space="preserve">
-        <value>Registration</value>
+        <value>Регистрация</value>
     </data>
     <data name="Login" xml:space="preserve">
-        <value>Login</value>
+        <value>Логин</value>
     </data>
     <data name="Email" xml:space="preserve">
-        <value>Email</value>
+        <value>Эл. почта</value>
     </data>
     <data name="PassRuleHolder" xml:space="preserve">
-        <value>The password must contain at least 5 characters, any.</value>
+        <value>Пароль должен содержать не менее 5 символов, любых.</value>
     </data>
     <data name="PlaceholderPassConfirm" xml:space="preserve">
-        <value>Confirm password</value>
+        <value>Подтверждение пароля</value>
     </data>
     <data name="PlaceholderPassConfirmRule" xml:space="preserve">
-        <value>Passwords must be match</value>
+        <value>Пароли должны совпадать</value>
     </data>
     <data name="PlaceholderPhotoProfile" xml:space="preserve">
-        <value>Profile photo</value>
+        <value>Фото профиля</value>
     </data>
     <data name="ProfilePhotoButton" xml:space="preserve">
-        <value>Choise file</value>
+        <value>Выберите файл</value>
     </data>
     <data name="PlaceholderPhotoProfileField" xml:space="preserve">
-        <value>File is not chosen</value>
+        <value>Файл не выбран</value>
     </data>
     <data name="ProfilePhotoRule" xml:space="preserve">
-        <value>minimal 55х55px (jpg/jpen/png</value>
+        <value>минимально 55х55px (jpg/jpen/png</value>
     </data>
     <data name="PlaceholderYourName" xml:space="preserve">
-        <value>Your name 
-(not necessary)</value>
+        <value>Ваше имя (необязательно)</value>
     </data>
     <data name="PlaceholderUserInfo" xml:space="preserve">
-        <value>User info</value>
+        <value>Информация о пользователе</value>
     </data>
     <data name="PlaceholderPhoneNumber" xml:space="preserve">
-        <value>Phone number</value>
+        <value>Номер телефона</value>
     </data>
     <data name="PlaceholderGenger" xml:space="preserve">
-        <value>Gender</value>
+        <value>Пол</value>
     </data>
     <data name="SelectMale" xml:space="preserve">
-        <value>Male</value>
+        <value>Мужской</value>
     </data>
     <data name="SelectFemale" xml:space="preserve">
-        <value>Female</value>
+        <value>Женский</value>
     </data>
 </root>

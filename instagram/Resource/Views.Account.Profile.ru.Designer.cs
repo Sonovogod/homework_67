@@ -21,14 +21,14 @@ namespace instagram.Resource {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Controllers_AccountController_en {
+    internal class Views_Account_Profile_ru {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Controllers_AccountController_en() {
+        internal Views_Account_Profile_ru() {
         }
         
         /// <summary>
@@ -38,7 +38,7 @@ namespace instagram.Resource {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("instagram.Resource.Controllers.AccountController.en", typeof(Controllers_AccountController_en).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("instagram.Resource.Views.Account.Profile.ru", typeof(Views_Account_Profile_ru).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -60,7 +60,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add post.
+        ///   Looks up a localized string similar to Добавить запись.
         /// </summary>
         internal static string AddPostButton {
             get {
@@ -69,7 +69,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete.
+        ///   Looks up a localized string similar to Удалить.
         /// </summary>
         internal static string DeleteButton {
             get {
@@ -78,7 +78,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Edit.
+        ///   Looks up a localized string similar to Редактировать.
         /// </summary>
         internal static string EditButton {
             get {
@@ -87,7 +87,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Email.
+        ///   Looks up a localized string similar to Эл. почта.
         /// </summary>
         internal static string Email {
             get {
@@ -96,7 +96,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Come in.
+        ///   Looks up a localized string similar to Войти.
         /// </summary>
         internal static string EnterButton {
             get {
@@ -105,7 +105,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to followers.
+        ///   Looks up a localized string similar to подписчики.
         /// </summary>
         internal static string Followers {
             get {
@@ -114,7 +114,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Login.
+        ///   Looks up a localized string similar to Логин.
         /// </summary>
         internal static string Login {
             get {
@@ -123,7 +123,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The password must contain at least 5 characters, any..
+        ///   Looks up a localized string similar to Пароль должен содержать не менее 5 символов, любых..
         /// </summary>
         internal static string PassRuleHolder {
             get {
@@ -132,7 +132,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Email username or address.
+        ///   Looks up a localized string similar to Эл. адрес или логин пользователя.
         /// </summary>
         internal static string PlaceHolderEmailLogin {
             get {
@@ -141,7 +141,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Gender.
+        ///   Looks up a localized string similar to Пол.
         /// </summary>
         internal static string PlaceholderGenger {
             get {
@@ -150,7 +150,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Password.
+        ///   Looks up a localized string similar to Пароль.
         /// </summary>
         internal static string PlaceholderPass {
             get {
@@ -159,7 +159,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Confirm password.
+        ///   Looks up a localized string similar to Подтверждение пароля.
         /// </summary>
         internal static string PlaceholderPassConfirm {
             get {
@@ -168,7 +168,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Passwords must be match.
+        ///   Looks up a localized string similar to Пароли должны совпадать.
         /// </summary>
         internal static string PlaceholderPassConfirmRule {
             get {
@@ -177,7 +177,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Phone number.
+        ///   Looks up a localized string similar to Номер телефона.
         /// </summary>
         internal static string PlaceholderPhoneNumber {
             get {
@@ -186,7 +186,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Profile photo.
+        ///   Looks up a localized string similar to Фото профиля.
         /// </summary>
         internal static string PlaceholderPhotoProfile {
             get {
@@ -195,7 +195,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to File is not chosen.
+        ///   Looks up a localized string similar to Файл не выбран.
         /// </summary>
         internal static string PlaceholderPhotoProfileField {
             get {
@@ -204,7 +204,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Search.
+        ///   Looks up a localized string similar to Поиск.
         /// </summary>
         internal static string PlaceholderSearch {
             get {
@@ -213,7 +213,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to User info.
+        ///   Looks up a localized string similar to Информация о пользователе.
         /// </summary>
         internal static string PlaceholderUserInfo {
             get {
@@ -222,8 +222,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Your name 
-        ///(not necessary).
+        ///   Looks up a localized string similar to Ваше имя (необязательно).
         /// </summary>
         internal static string PlaceholderYourName {
             get {
@@ -232,16 +231,16 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to posts.
+        ///   Looks up a localized string similar to посты.
         /// </summary>
-        internal static string Post {
+        internal static string Posts {
             get {
-                return ResourceManager.GetString("Post", resourceCulture);
+                return ResourceManager.GetString("Posts", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Choise file.
+        ///   Looks up a localized string similar to Выберите файл.
         /// </summary>
         internal static string ProfilePhotoButton {
             get {
@@ -250,7 +249,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to minimal 55х55px (jpg/jpen/png.
+        ///   Looks up a localized string similar to минимально 55х55px (jpg/jpen/png.
         /// </summary>
         internal static string ProfilePhotoRule {
             get {
@@ -259,7 +258,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Registration.
+        ///   Looks up a localized string similar to Регистрация.
         /// </summary>
         internal static string Registration {
             get {
@@ -268,7 +267,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Save.
+        ///   Looks up a localized string similar to Сохранить.
         /// </summary>
         internal static string SaveButton {
             get {
@@ -277,7 +276,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Female.
+        ///   Looks up a localized string similar to Женский.
         /// </summary>
         internal static string SelectFemale {
             get {
@@ -286,7 +285,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Male.
+        ///   Looks up a localized string similar to Мужской.
         /// </summary>
         internal static string SelectMale {
             get {
@@ -295,7 +294,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pleace to enter.
+        ///   Looks up a localized string similar to Выполните вход.
         /// </summary>
         internal static string SignIn {
             get {
@@ -304,7 +303,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sign out.
+        ///   Looks up a localized string similar to Выход.
         /// </summary>
         internal static string SignOutButton {
             get {
@@ -313,7 +312,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sing in.
+        ///   Looks up a localized string similar to Войти.
         /// </summary>
         internal static string SingInButton {
             get {
@@ -322,16 +321,7 @@ namespace instagram.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to subscriptions.
-        /// </summary>
-        internal static string Subscriptions {
-            get {
-                return ResourceManager.GetString("Subscriptions", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Register.
+        ///   Looks up a localized string similar to Зарегистрироваться.
         /// </summary>
         internal static string ToRegister {
             get {

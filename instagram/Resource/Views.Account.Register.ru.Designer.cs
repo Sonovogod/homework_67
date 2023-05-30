@@ -21,14 +21,14 @@ namespace instagram.Resource {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Controllers_AccountController_ru {
+    internal class Views_Account_Register_ru {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Controllers_AccountController_ru() {
+        internal Views_Account_Register_ru() {
         }
         
         /// <summary>
@@ -38,7 +38,7 @@ namespace instagram.Resource {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("instagram.Resource.Controllers.AccountController.ru", typeof(Controllers_AccountController_ru).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("instagram.Resource.Views.Account.Register.ru", typeof(Views_Account_Register_ru).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -233,15 +233,6 @@ namespace instagram.Resource {
         /// <summary>
         ///   Looks up a localized string similar to посты.
         /// </summary>
-        internal static string Post {
-            get {
-                return ResourceManager.GetString("Post", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
         internal static string Posts {
             get {
                 return ResourceManager.GetString("Posts", resourceCulture);
@@ -326,15 +317,6 @@ namespace instagram.Resource {
         internal static string SingInButton {
             get {
                 return ResourceManager.GetString("SingInButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to подписки.
-        /// </summary>
-        internal static string Subscriptions {
-            get {
-                return ResourceManager.GetString("Subscriptions", resourceCulture);
             }
         }
         
